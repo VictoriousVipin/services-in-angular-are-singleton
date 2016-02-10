@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+	<h2>Main Controller</h2>
+	<div ng-controller="myMainController">
+		<p><b>Controller Name:</b> {{controllerName}}</p>
+		<p><b>Service Name:</b> {{serviceName}}</p>
+	</div>
+	<br/><br/><br/>
+	<h2>Second Controller</h2>
+	<div ng-controller="mySecondController">
+		<p><b>Controller Name:</b> {{controllerName}}</p>
+		<p><b>Service Name:</b> {{serviceName}}</p>
+	</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
